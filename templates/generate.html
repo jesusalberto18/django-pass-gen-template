@@ -1,0 +1,30 @@
+{% extends 'layouts/base.html' %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Password Generator | Generate</title>
+  </head>
+  <body>
+    <form class="generate">
+      <h1>Set a password.</h1>
+      <label for="length">Select the length of your password:</label>
+      <select name="length">
+        <option value="char">8 Characters</option>
+        <option value="char">9 Characters</option>
+        <option value="char">10 Characters</option>
+        <option value="char">11 Characters</option>
+        <option value="char">12 Characters</option>
+        <option value="char">13 Characters</option>
+        <option value="char">14 Characters</option>
+        <option value="char">15 Characters</option>
+        <option value="char">16 Characters</option>
+      </select>
+      <button type="button" name="button">Generate password</button>
+    </form>
+
+    <footer>NOTE: Your password must contain 8-16 characters.</footer>
+  </body>
+</html>
